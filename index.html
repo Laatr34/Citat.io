@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Citation for You</title>
+    <link
+      rel="shortcut icon"
+      href="assets/android-chrome-512x512.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="navbar">
+      <div class="option-logo">
+        <button class="burger-button">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </button>
+        <a href="" class="logo">Citat<span>.io</span></a>
+      </div>
+    </main>
+    <main class="nav-main">
+      <div class="nav-links">
+        <h1>Plus de Citation</h1>
+        <ul>
+          <li data-type="amour" class="type">Amour</li>
+          <li data-type="passion" class="type">Passion</li>
+          <li data-type="loisir" class="type">Loisir</li>
+          <li data-type="amitié" class="type">Amitié</li>
+          <li data-type="temps" class="type">Temps</li>
+          <li data-type="bonheur" class="type">Bonheur</li>
+          <li data-type="sagesse" class="type">Sagesse</li>
+          <li data-type="nature" class="type">Nature</li>
+          <li data-type="réussite" class="type">Réussite</li>
+          <li data-type="liberté" class="type">Liberté</li>
+        </ul>
+      </div>
+      <div class="contact">
+        <p>contact</p>
+        <div class="contact-shield">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+          <a href=""><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+    </main>
+
+    <main class="quote-main">
+      <section class="image-representation">
+        <img src="assets/amour.jpeg" />
+        <div class="container">
+          <h1 class="definition-title"></h1>
+          <p></p>
+        </div>
+      </section>
+      <section class="quote-place">
+        <div class="quote-section">
+          <div id="type-container" class="quote-complement"></div>
+          <div id="quote-content" class="quote-complement"></div>
+          <div id="author" class="quote-complement"></div>
+        </div>
+        <button id="actualiser">Actualiser</button>
+      </section>
+      <section class="definition-place">
+        <div class="container">
+          <h1 class="definition-title"></h1>
+          <p></p>
+          <div class="appreciation-container">
+            <p>2025 ; All Rights Reserved</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
