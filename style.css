@@ -359,7 +359,7 @@
 @media screen and (max-width: 768px) {
   .quote-main {
     flex-direction: column-reverse;
-    justify-content: space-between;
+    justify-content: center;
     gap: 2rem;
   }
 
